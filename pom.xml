@@ -93,7 +93,7 @@
       <version>2.15.3</version>
     </dependency>
 
-    <!-- Lombok (optionnel, pour réduire le code boilerplate) -->
+    <!-- Lombok (j'ai utiliser pour réduire mon code boilerplate) -->
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
