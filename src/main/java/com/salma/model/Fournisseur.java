@@ -9,7 +9,6 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-
 @Entity
 @Table(name = "fournisseurs")
 @Data  // Lombok génère automatiquement getters, setters, toString, equals, hashCode
