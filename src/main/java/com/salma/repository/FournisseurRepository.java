@@ -10,12 +10,6 @@ import java.util.Optional;
 @Repository
 public interface FournisseurRepository extends JpaRepository<Fournisseur, Long> {
 
-    Optional<Fournisseur> findBySociete(String societe);
-
-    Optional<Fournisseur> findByIce(String ice);
-
-    Optional<Fournisseur> findByEmail(String email);
-
     List<Fournisseur> findByVille(String ville);
 
     List<Fournisseur> findBySocieteContainingIgnoreCase(String keyword);
